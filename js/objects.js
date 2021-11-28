@@ -22,15 +22,12 @@ const workcards = [
         titletext: "The universe of games",
         description: "A project done during my school semester. Creating a site that allows purchase and selling of games.",
         labels: [
-            {
-            html: true
-            },
-            {
-            css: true
-            },
-            {
-            js: false
-            }
+            {html: true},
+            {css: true},
+            {js: false},
+            {static: true},
+            {responsive: true},
+            {school: true}
         ],
         image: "assets/images/gamehub.jpg"
     },
@@ -39,15 +36,12 @@ const workcards = [
         titletext: "Learn, Develop, Experience",
         description: "A project done during my school semester. Creating a science museum page for teachers and students",
         labels: [
-            {
-            html: true
-            },
-            {
-            css: true
-            },
-            {
-            js: false
-            }
+            {html: true},
+            {css: true},
+            {js: false},
+            {static: true},
+            {responsive: true},
+            {school: true}
         ],
         image: "assets/images/csm.jpg"
     },
@@ -56,30 +50,22 @@ const workcards = [
         titletext: "Mapping and making your web-designs take form",
         description: "Made on the side as a project to test my capabilities. Something to build upon",
         labels: [
-            {
-            html: true
-            },
-            {
-            css: true
-            },
-            {
-            js: false
-            }
+            {html: true},
+            {css: true},
+            {js: true},
+            {static: true},
+            {responsive: true},
+            {school: false}
         ],
         image: "assets/images/portfolio.jpg"
     }
 ];
-const tags = [
+const tags =
     {
-        title: "html",
-        src: "assets/tags/html.svg",
-    },
-    {
-        title: "css",
-        src: "assets/tags/css.svg",
-    },
-    {
-        title: "js",
-        src: "assets/tags/js.svg",
+        html: "assets/tags/html.svg",
+        css: "assets/tags/css.svg",
+        js: "assets/tags/js.svg",
+        static: "Static page",
+        responsive: "Responsive page",
+        school: "School Project"
     }
-];
